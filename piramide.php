@@ -2,10 +2,10 @@
 
 echo "Hoeveel stapels wil je hebben?".PHP_EOL;
 
-$stapels = readline();
+$stapels = readline(">");
 
 for($i = 0; $i < $stapels; $i++){
-    for($j = 0; $j <= $i; $j++){
+    for($j = 1; $j <1 $i; $j++){
         echo "*";
     }
     echo PHP_EOL;
